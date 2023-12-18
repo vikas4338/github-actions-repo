@@ -9,6 +9,9 @@ on:
 jobs:
       build:
             runs-on: ubuntu-latest
+            strategy:
+              matrix:
+                    node-versions: [16.x, 18.x]
             steps:
                 - uses: actions/checkout@v2
                 - name: npm install and build
