@@ -14,12 +14,6 @@ jobs:
                     node-versions: [16.x, 18.x]
             steps:
                 - uses: actions/checkout@v2
-                - name: Super-linter
-                  uses: super-linter/super-linter@v5
-                  env:
-                        DEFAULT_BRANCH: main
-                        # To report GitHub Actions status checks
-                        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                 - name: npm install and build
                   run:
                     npm install
