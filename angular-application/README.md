@@ -25,3 +25,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Github action workflow is like -
+
+![image](https://github.com/vikas4338/github-actions-repo/assets/13362154/b2f8b1e9-3f73-480f-bd29-3fac9f6ad3ad)
